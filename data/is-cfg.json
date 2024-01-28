@@ -1,5 +1,5 @@
 {
-	"callsign": "NOCALL-10",
+	"callsign": "GW0TQM-10",
 	"network": {
 		"DHCP": true,
 		"static": {
@@ -11,23 +11,23 @@
 		},
 		"hostname": {
 			"overwrite": false,
-			"name": "NOCALL-10"
+			"name": "GW0TQM-10"
 		}
 	},
 	"wifi": {
 		"active": true,
 		"AP": [
 			{
-				"SSID": "YOURSSID",
-				"password": "YOURPASSWORD"
+				"SSID": "vodafoneC1DBB7",
+				"password": "wwgwdnrVOD1$"
 			}
 		]
 	},
 	"beacon": {
-		"message": "LoRa iGATE & Digi, Info: github.com/lora-aprs/LoRa_APRS_iGate",
+		"message": "LoRa iGATE 439.9125 sp12 bw125 Info: github.com/lora-aprs/LoRa_APRS_iGate",
 		"position": {
-			"latitude": 0.000000,
-			"longitude": 0.000000
+			"latitude": 53.173088,
+			"longitude": -3.151790
 		},
 		"use_gps": false,
 		"timeout": 15,
@@ -35,7 +35,7 @@
 	},
 	"aprs_is": {
 		"active": true,
-		"passcode": "",
+		"passcode": "21932",
 		"server": "euro.aprs2.net",
 		"port": 14580,
 		"filter": ""
@@ -44,9 +44,9 @@
 		"active": false
 	},
 	"lora": {
-		"frequency_rx": 433775000,
+		"frequency_rx": 439912500,
 		"gain_rx": 0,
-		"frequency_tx": 433775000,
+		"frequency_tx": 439912500,
 		"power": 20,
 		"spreading_factor": 12,
 		"signal_bandwidth": 125000,
@@ -60,7 +60,7 @@
 		"turn180": true
 	},
 	"ftp": {
-		"active": false,
+		"active": true,
 		"user": [
 			{
 				"name": "ftp",
